@@ -1,0 +1,9 @@
+@startuml
+class java.io.OutputStream {
+	{abstract} +void wirte(int b) throws IOException
+	{abstract} +void wirte(byte[] data) throws IOException
+	{abstract} +void wirte(byte[] data, int offset, int length) throws IOException
+	{abstract} +void flush() throws IOException
+	{abstract} +void close() throws IOException
+}
+@enduml
