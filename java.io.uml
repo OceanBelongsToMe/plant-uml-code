@@ -7,6 +7,10 @@ package java.io <<Frame>> {
 		+long skip(long n) throws IOException
 		+long available() throws IOException
 		+void close() throws IOException
+		.. uncommonly used ..
+		+void mark(int readAheardLimit)
+		+void reset() throws IOException
+		+boolean markSupported()
 	}
 	class OutputStream << (A,orchid) >> {
 		{abstract} +void wirte(int b) throws IOException
