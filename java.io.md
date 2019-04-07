@@ -1,3 +1,4 @@
+```plantUML
 @startuml
 package java.io <<Frame>> {
 	class InputStream << (A,orchid) >> {
@@ -21,3 +22,4 @@ package java.io <<Frame>> {
 	}
 }
 @enduml
+```
